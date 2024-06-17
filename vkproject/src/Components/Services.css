@@ -1,0 +1,26 @@
+.servicesMain{
+    width: 90vw;
+    margin: 20px;
+}
+.ServiceDivHeading{
+    text-align: center;
+    color: blue;
+}
+.serviceCards{
+    display: flex;
+    gap: 20px;
+    margin-left: 40px;
+}
+.serviceImagesDiv{
+    width: 360px;
+    height: 450px;
+}
+
+.serviceImages{
+    width: 350px;
+    height: 400px;
+}
+.serviceImages:hover{
+    border: 4px solid aqua;
+    border-radius: 10px;
+}

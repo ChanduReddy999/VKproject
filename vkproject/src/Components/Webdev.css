@@ -1,0 +1,13 @@
+.WebDevelopmentPage{
+    width: 700px;
+    height: 450px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    margin: 30px 300px;
+}
+.WebDevelopmentPageImg{
+    margin: 20px 100px;
+    width: 500px;
+    height: 400px;
+    border-radius: 20px;
+}
