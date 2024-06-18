@@ -11,3 +11,17 @@
     height: 400px;
     border-radius: 20px;
 }
+.WebDevelopmentPageArrow{
+    margin-top: -50px;
+    margin-left: 50px;
+}
+.leftArrowWebPage{
+    font-size: 30px;
+    font-weight: 600;
+    padding-left: 150px;
+}
+.leftArrowWebPage:hover{
+    color: blue;
+    text-decoration: none;
+    font-weight: 900;
+}
