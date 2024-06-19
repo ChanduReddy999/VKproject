@@ -127,8 +127,10 @@
 /* desktops */
 @media screen and (min-device-width: 1025px) and (max-device-width: 1440px) {
   .TechnologiesMain {
-    margin-left: 180px;
-    height: 100vh;
+    margin: 0 100px;
+    /* width: 70vw; */
+    height: 60vh;
+    overflow: hidden;
   }
   .techFirstDivHeading {
     text-align: center;
@@ -139,24 +141,15 @@
     padding-left: 20px;
     display: flex;
     height: 220px;
+    /* width: 70vw; */
     gap: 50px;
     /* background-color: aquamarine; */
-    border-top-left-radius: 40px;
-    border-top-right-radius: 40px;
+    /* border-top-left-radius: 40px; */
+    /* border-top-right-radius: 40px; */
     /* box-shadow: 25px 15px 8px rgb(192, 240, 242); */
   }
   .absc{
-    animation: DivRightToLeft 10s linear 0s infinite;
-  }
-  .mySkillsThirdDiv {
-    padding-left: 20px;
-    display: flex;
-    height: 220px;
-    gap: 50px;
-    /* background-color: aquamarine; */
-    border-bottom-left-radius: 40px;
-    border-bottom-right-radius: 40px;
-    /* box-shadow: 25px 15px 8px rgb(192, 240, 242); */
+    animation: DivRightToLeft 30s linear 0s infinite;
   }
 
   .skillsImg {
@@ -164,7 +157,7 @@
     height: 80px;
     margin-top: 25px;
     margin-left: 25px;
-    animation: skillsAnime 12s linear 2s infinite;
+    animation: skillsAnime 4s linear 0s infinite;
   }
  
   .techSecondDivH2 {
@@ -184,17 +177,17 @@
     0% {
       transform: rotate(0deg);
     }
-    75%,x
+    75%,
     100% {
       transform: rotate(360deg);
     }
   }
   @keyframes DivRightToLeft {
     0% {
-      transform: translateX(-100%);
+      transform: translateX(0%);
     }
     100% {
-      transform: translateX(100%);
+      transform: translateX(-50%);
     }
   }
 

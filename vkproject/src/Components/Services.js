@@ -7,6 +7,7 @@ import dataEngineering from '../Images/dataEngineering.jpg';
 import webDevelopment from '../Images/webDevelopment.jpg';
 import Header from './Header';
 import Technologies from './Technologies';
+import Footer from './Footer';
 
 
 const Services = () => {
@@ -33,6 +34,7 @@ const Services = () => {
       </div>
       <Technologies />
       <Contact />
+      <Footer />
     </>
   )
 }

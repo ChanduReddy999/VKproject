@@ -17,66 +17,64 @@ const Technologies = () => {
         <>
             <div id='technologies' className='TechnologiesMain'>
                 <div className='techFirstDiv'>
-                    <h1 className='techFirstDivHeading'>My Skills</h1>
+                    <h1 className='techFirstDivHeading'>Technologies</h1>
                 </div>
                 <div className='techSecondDiv absc'>
-                    <div className=''>
+                    <div className='htmldiv'>
                         <div className='skillsAnimationDiv'>
                             <img src={HTML} className='skillsImg' alt='HTML Pic' />
                         </div>
                         <h2 className='techSecondDivH2'>HTML5</h2>
                     </div>
-                    <div className=''>
+                    <div className='cssdiv'>
                         <div className='skillsAnimationDiv'>
                             <img src={CSS} className='skillsImg' alt='CSS Pic' />
                         </div>
                         <h2 className='techSecondDivH2'>CSS3</h2>
                     </div>
-                    <div className=''>
+                    <div className='javascriptdiv'>
                         <div className='skillsAnimationDiv'>
                             <img src={JS} className='skillsImg' alt='Javascript Pic' />
                         </div>
                         <h2 className='techSecondDivH2'>JAVASCRIPT</h2>
                     </div>
-                    <div className=''>
+                    <div className='sqldiv'>
                         <div className='skillsAnimationDiv'>
                             <img src={SQL} className='skillsImg' alt='SQL Pic' />
                         </div>
-                        <h2 className='techSecondDivH2'>MYSQL</h2>
+                        <h2 className='techSecondDivH2'>SQL</h2>
                     </div>
-                    <div className=''>
+                    <div className='tableaudiv'>
                         <div className='skillsAnimationDiv'>
                             <img src={TABLEAU} className='skillsImg' alt='Tableau Pic' />
                         </div>
                         <h2 className='techSecondDivH2'>TABLEAU</h2>
                     </div>
-                </div>
-                <div className='mySkillsThirdDiv'>
-                    <div>
+                    <div className='pythondiv'>
                         <div className='skillsAnimationDiv'>
                             <img src={Python} className='skillsImg' alt='Python Pic' />
                         </div>
                         <h2 className='techSecondDivH2'>PYTHON</h2>
                     </div>
-                    <div>
+                    <div className='nodejsdiv'>
                         <div className='skillsAnimationDiv'>
                             <img src={NodeJS} className='skillsImg' alt='NodeJS Pic' />
                         </div>
                         <h2 className='techSecondDivH2'>NODEJS</h2>
                     </div>
-                    <div>
+                    <div className='gcpdiv'>
                         <div className='skillsAnimationDiv'>
                             <img src={GCP} className='skillsImg' alt='GCP Pic' />
                         </div>
                         <h2 className='techSecondDivH2'>GCP</h2>
                     </div>
-                    <div>
+                    <div className='reactjsdiv'>
                         <div className='skillsAnimationDiv'>
                             <img src={ReactJS} className='skillsImg' alt='ReactJS Pic' />
                         </div>
                         <h2 className='techSecondDivH2'>REACTJS</h2>
                     </div>
-                    <div>
+                    <div className='expressjsdiv'>
                         <div className='skillsAnimationDiv'>
                             <img src={ExpressJS} className='skillsImg' alt='ExpressJS Pic' />
                         </div>
