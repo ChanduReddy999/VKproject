@@ -1,6 +1,6 @@
 .HeaderMain{
     display: flex;
-    gap: 400px;
+    gap: 500px;
     background-color: aliceblue;
 }
 
@@ -11,12 +11,17 @@
 
 .HeaderLogo{
     border-radius: 50%;
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
+    margin-top: 5px;
+    margin-left: 40px;
+}
+.HeaderH1Div{
+    margin-top: -5px;
 }
 .HeaderH1{
-    font-weight: 400;
-    font-size: 40px;
+    font-weight: 600;
+    font-size: 30px;
 }
 
 .HeaderSubDiv2{

@@ -11,7 +11,7 @@ const Header = () => {
             <div className='col-4 col-4 col-4 HeaderMain'>
                 <div className='HeaderSubDiv1'>
                     <img src={Logo} alt='logo' className='HeaderLogo' />
-                    <h1 className='HeaderH1'>VKLearnings</h1>
+                    <div className='HeaderH1Div'><h1 className='HeaderH1'>VKLearnings</h1></div>
                 </div>
                 <div className='HeaderSubDiv2'>
                     <Link to='/whoweare' className='HeaderLinks'>Who We Are</Link>
