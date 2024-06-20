@@ -218,26 +218,73 @@
       margin: 25px 50px 0 170px;
       padding-top: 20px;
       background-color: aliceblue;
-      height: 100vh;
+      height: 85vh;
       border-radius: 40px;
-      width: 72vw;
+      width: 900px;
+      display: flex;
+    }
+    .socialMedia {
+      background-color: aquamarine;
+      margin-left: 10px;
+      border-radius: 20px;
+      width: 360px;
+      height: 450px;
     }
   
+    .socialMediaSubDiv {
+      padding: 10px 0;
+      text-align: center;
+    }
+  
+    /* .socialMediaSubDivHeading {
+      color: blue;
+    }*/
+
+    .socialMedaiSubDiv2Divs{
+      width: 350px;
+      height: 60px;
+    }
+    .logoDimensions {
+      width: 30px;
+      height: 30px;
+    }
+    .iconsmatter {
+      display: flex;
+      gap: 20px;
+      margin: 0 20px;
+    }
+    .socialMediaSubDiv2Para {
+      margin-top: 0px;
+    }
+    .socialMediaSpan{
+      font-weight: 700;
+    }
+    .myWebsite {
+      text-decoration: none;
+      color: black;
+    }
+    .myWebsite:hover {
+      color: blue;
+      text-decoration: underline;
+      font-weight: 600;
+    }
+
+
     .contactDetails {
       background-color: aquamarine;
-      margin-left: 230px;
+      margin-left: 20px;
       border-radius: 20px;
-      width: 450px;
-      height: 500px;
+      width: 500px;
+      height: 450px;
     }
   
     .contactDetailsSubDiv {
       text-align: center;
     }
   
-    .contactDetailsSubDivHeading {
+    /* .contactDetailsSubDivHeading {
       color: blue;
-    }
+    } */
   
     .contactDetailsSubDiv2 {
       margin: 0 20px;
@@ -258,7 +305,7 @@
     }
     .contactFullNameInput {
       margin-top: 10px;
-      width: 185px;
+      width: 215px;
       height: 30px;
       padding-left: 5px;
       border-radius: 10px;
@@ -272,7 +319,7 @@
     }
     .contactEmailInput {
       margin-top: 10px;
-      width: 185px;
+      width: 215px;
       height: 30px;
       padding-left: 5px;
       border-radius: 10px;
@@ -287,7 +334,7 @@
     .contactSubjectInput {
       margin-top: 10px;
       margin-bottom: 20px;
-      width: 400px;
+      width: 455px;
       height: 30px;
       padding-left: 5px;
       border-radius: 10px;
@@ -302,8 +349,8 @@
     .contactMessageTextarea {
       margin-top: 10px;
       margin-bottom: 10px;
-      width: 400px;
-      height: 150px;
+      width: 450px;
+      height: 90px;
       padding: 5px;
       border-radius: 10px;
       border: 0 solid white;
