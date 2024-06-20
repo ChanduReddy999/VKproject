@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import Contact from "./Contact";
 import './Services.css';
@@ -11,6 +11,13 @@ import Footer from './Footer';
 
 
 const Services = () => {
+  const serviceDescriptions = ['Harness the power of data with our advanced analytics solutions. Turn raw data into useful insights to make smarter decisions and improve your business. Use data visualization and predictive tools to stay ahead of the competition. Enhance your strategies with clear, data-driven insights.', 'We ensure data integrity and optimize data flows to enhance your analytics and business intelligence. Utilizing advanced ETL processes, data integration, and cloud technologies, we empower data-driven decision-making to boost your business performance.', "Welcome to our web development hub, where we transform aspiring coders into proficient web developers. Our mission is to provide you with the skills, knowledge, and confidence needed to create dynamic, responsive, and visually appealing websites. Whether you're a complete beginner or looking to enhance your existing skills, our comprehensive courses and resources are designed to cater to all learning levels."]
+  const [currentDescription, setCurrentDescription] = useState('');
+
+  const handleDescriptionChange = (index) => {
+    setCurrentDescription(serviceDescriptions[index]);
+  };
+
   return (
     <>
       <Header />
@@ -25,22 +32,25 @@ const Services = () => {
           <div className='col-4 col-4 col-4 serviceCards'>
             <div className='serviceImagesDiv'>
               <div className='serviceImagesSubDiv'>
-                <Link to='/dataanalytics' className='serviceImagesLink' ><img src={dataAnalyticsServiceImg} className='serviceImages1' alt='img' /></Link>
+                <img src={dataAnalyticsServiceImg} className='serviceImages1' alt='img' onClick={() => handleDescriptionChange(0)} />
               </div>
-              <p className='aboutCourse'>Harness the power of data with our advanced analytics solutions. Turn raw data into useful insights to make smarter decisions and improve your business. Use data visualization and predictive tools to stay ahead of the competition. Enhance your strategies with clear, data-driven insights</p>
+              <Link to='/dataanalytics' className='navigationToPages' ><h2>DATA ANALYTICS</h2></Link>
             </div>
             <div className='serviceImagesDiv'>
               <div className='serviceImagesSubDiv'>
-              <Link to='/dataengineering' className='serviceImagesLink' ><img src={dataEngineeringServiceImg} className='serviceImages2' alt='img' /></Link>
+                <img src={dataEngineeringServiceImg} className='serviceImages2' alt='img' onClick={() => handleDescriptionChange(1)} />
               </div>
-              <p className='aboutCourse'>We ensure data integrity and optimize data flows to enhance your analytics and business intelligence. Utilizing advanced ETL processes, data integration, and cloud technologies, we empower data-driven decision-making to boost your business performance</p>
+              <Link to='/dataanalytics' className='navigationToPages' ><h2>DATA ENGINEERING</h2></Link>
             </div>
             <div className='serviceImagesDiv'>
               <div className='serviceImagesSubDiv'>
-              <Link to='/webdevelopment' className='serviceImagesLink' ><img src={webDevelopmentServiceImg} className='serviceImages3' alt='img' /></Link>
+                <img src={webDevelopmentServiceImg} className='serviceImages3' alt='img' onClick={() => handleDescriptionChange(2)} />
               </div>
-              <p className='aboutCourse'>We ensure data integrity and optimize data flows to enhance your analytics and business intelligence. Utilizing advanced ETL processes, data integration, and cloud technologies, we empower data-driven decision-making to boost your business performance</p>
+              <Link to='/dataanalytics' className='navigationToPages' ><h2>WEB DEVELOPMENT</h2></Link>
             </div>
+          </div>
+          <div id='descriptionPara' className='descriptionParagraph'>
+            <p>{currentDescription}</p>
           </div>
         </div>
       </div>
