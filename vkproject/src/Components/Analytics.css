@@ -1,27 +1,123 @@
-.AnalyticsPage{
-    width: 700px;
-    height: 450px;
-    background-color: aliceblue;
-    border-radius: 20px;
-    margin: 30px 300px;
+/* mobiles */
+@media screen and (min-device-width: 320px) and (max-device-width: 768px) {
+    .AnalyticsPage{
+        width: 700px;
+        height: 450px;
+        background-color: aliceblue;
+        border-radius: 20px;
+        margin: 30px 300px;
+    }
+    .dataAnalyticsPageImg{
+        margin: 20px 100px;
+        width: 500px;
+        height: 400px;
+        border-radius: 20px;
+    }
+    .AnalyticsPageArrow{
+        margin-top: -50px;
+        margin-left: 50px;
+    }
+    .leftArrowAnalyticsPage{
+        font-size: 30px;
+        font-weight: 600;
+        padding-left: 150px;
+    }
+    .leftArrowAnalyticsPage:hover{
+        color: blue;
+        text-decoration: none;
+        font-weight: 900;
+    }
 }
-.dataAnalyticsPageImg{
-    margin: 20px 100px;
-    width: 500px;
-    height: 400px;
-    border-radius: 20px;
+
+/* laptops */
+@media screen and (min-device-width: 769px) and (max-device-width: 1024px) {
+    .AnalyticsPage{
+        width: 700px;
+        height: 450px;
+        background-color: aliceblue;
+        border-radius: 20px;
+        margin: 30px 300px;
+    }
+    .dataAnalyticsPageImg{
+        margin: 20px 100px;
+        width: 500px;
+        height: 400px;
+        border-radius: 20px;
+    }
+    .AnalyticsPageArrow{
+        margin-top: -50px;
+        margin-left: 50px;
+    }
+    .leftArrowAnalyticsPage{
+        font-size: 30px;
+        font-weight: 600;
+        padding-left: 150px;
+    }
+    .leftArrowAnalyticsPage:hover{
+        color: blue;
+        text-decoration: none;
+        font-weight: 900;
+    }
 }
-.AnalyticsPageArrow{
-    margin-top: -50px;
-    margin-left: 50px;
+
+/* desktops */
+@media screen and (min-device-width: 1025px) and (max-device-width: 1440px) {
+    .AnalyticsPage{
+        width: 700px;
+        height: 450px;
+        background-color: aliceblue;
+        border-radius: 20px;
+        margin: 30px 300px;
+    }
+    .dataAnalyticsPageImg{
+        margin: 20px 100px;
+        width: 500px;
+        height: 400px;
+        border-radius: 20px;
+    }
+    .AnalyticsPageArrow{
+        margin-top: -50px;
+        margin-left: 50px;
+    }
+    .leftArrowAnalyticsPage{
+        font-size: 30px;
+        font-weight: 600;
+        padding-left: 150px;
+    }
+    .leftArrowAnalyticsPage:hover{
+        color: blue;
+        text-decoration: none;
+        font-weight: 900;
+    }
 }
-.leftArrowAnalyticsPage{
-    font-size: 30px;
-    font-weight: 600;
-    padding-left: 150px;
-}
-.leftArrowAnalyticsPage:hover{
-    color: blue;
-    text-decoration: none;
-    font-weight: 900;
+
+/* big screens */
+@media screen and (min-device-width: 1441px) and (max-device-width: 2560px) {
+    .AnalyticsPage{
+        width: 700px;
+        height: 450px;
+        background-color: aliceblue;
+        border-radius: 20px;
+        margin: 30px 300px;
+    }
+    .dataAnalyticsPageImg{
+        margin: 20px 100px;
+        width: 500px;
+        height: 400px;
+        border-radius: 20px;
+    }
+    .AnalyticsPageArrow{
+        margin-top: -50px;
+        margin-left: 50px;
+    }
+    .leftArrowAnalyticsPage{
+        font-size: 30px;
+        font-weight: 600;
+        padding-left: 150px;
+    }
+    .leftArrowAnalyticsPage:hover{
+        color: blue;
+        text-decoration: none;
+        font-weight: 900;
+    }
 }

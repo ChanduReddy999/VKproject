@@ -1,41 +1,180 @@
-.HeaderMain{
-    display: flex;
-    gap: 500px;
-    background-color: aliceblue;
+/* mobiles */
+@media screen and (min-device-width: 320px) and (max-device-width: 768px) {
+    .HeaderMain{
+        display: flex;
+        gap: 500px;
+        background-color: aliceblue;
+    }
+    
+    .HeaderSubDiv1{
+        margin-left: 20px;
+        display: flex;
+    }
+    
+    .HeaderLogo{
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        margin-top: 5px;
+        margin-left: 40px;
+    }
+    .HeaderH1Div{
+        margin-top: -5px;
+    }
+    .HeaderH1{
+        font-weight: 600;
+        font-size: 30px;
+    }
+    
+    .HeaderSubDiv2{
+        margin-top: 20px;
+    }
+    
+    .HeaderLinks{
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 500;
+        padding-right: 20px;
+    }
+    
+    .HeaderLinks:hover{
+        font-weight: 700;
+        color: blue;
+    }
 }
 
-.HeaderSubDiv1{
-    margin-left: 20px;
-    display: flex;
+/* laptops */
+@media screen and (min-device-width: 769px) and (max-device-width: 1024px) {
+    .HeaderMain{
+        display: flex;
+        gap: 500px;
+        background-color: aliceblue;
+    }
+    
+    .HeaderSubDiv1{
+        margin-left: 20px;
+        display: flex;
+    }
+    
+    .HeaderLogo{
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        margin-top: 5px;
+        margin-left: 40px;
+    }
+    .HeaderH1Div{
+        margin-top: -5px;
+    }
+    .HeaderH1{
+        font-weight: 600;
+        font-size: 30px;
+    }
+    
+    .HeaderSubDiv2{
+        margin-top: 20px;
+    }
+    
+    .HeaderLinks{
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 500;
+        padding-right: 20px;
+    }
+    
+    .HeaderLinks:hover{
+        font-weight: 700;
+        color: blue;
+    }
 }
 
-.HeaderLogo{
-    border-radius: 50%;
-    width: 60px;
-    height: 60px;
-    margin-top: 5px;
-    margin-left: 40px;
-}
-.HeaderH1Div{
-    margin-top: -5px;
-}
-.HeaderH1{
-    font-weight: 600;
-    font-size: 30px;
+/* desktops */
+@media screen and (min-device-width: 1025px) and (max-device-width: 1440px) {
+    .HeaderMain{
+        display: flex;
+        gap: 500px;
+        background-color: aliceblue;
+    }
+    
+    .HeaderSubDiv1{
+        margin-left: 20px;
+        display: flex;
+    }
+    
+    .HeaderLogo{
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        margin-top: 5px;
+        margin-left: 40px;
+    }
+    .HeaderH1Div{
+        margin-top: -5px;
+    }
+    .HeaderH1{
+        font-weight: 600;
+        font-size: 30px;
+    }
+    
+    .HeaderSubDiv2{
+        margin-top: 20px;
+    }
+    
+    .HeaderLinks{
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 500;
+        padding-right: 20px;
+    }
+    
+    .HeaderLinks:hover{
+        font-weight: 700;
+        color: blue;
+    }
 }
 
-.HeaderSubDiv2{
-    margin-top: 20px;
-}
-
-.HeaderLinks{
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: 500;
-    padding-right: 20px;
-}
-
-.HeaderLinks:hover{
-    font-weight: 700;
-    color: blue;
+/* big screens */
+@media screen and (min-device-width: 1441px) and (max-device-width: 2560px) {
+    .HeaderMain{
+        display: flex;
+        gap: 1300px;
+        background-color: aliceblue;
+    }
+    
+    .HeaderSubDiv1{
+        margin-left: 120px;
+        display: flex;
+    }
+    
+    .HeaderLogo{
+        border-radius: 50%;
+        width: 80px;
+        height: 80px;
+        margin-top: 20px;
+        margin-left: 50px;
+        margin-bottom: 20px;
+    }
+    .HeaderH1Div{
+        margin-top: 5px;
+    }
+    .HeaderH1{
+        font-weight: 600;
+        font-size: 40px;
+    }
+    
+    .HeaderSubDiv2{
+        margin-top: 30px;
+    }
+    
+    .HeaderLinks{
+        text-decoration: none;
+        font-size: 36px;
+        font-weight: 500;
+        padding-right: 50px;
+    }
+    
+    .HeaderLinks:hover{
+        font-weight: 700;
+        color: blue;
+    }
 }

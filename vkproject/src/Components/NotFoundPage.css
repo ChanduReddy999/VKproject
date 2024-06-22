@@ -1,10 +1,55 @@
-.NotFoundPage{
-    font-size: 24px;
-    font-weight: 600;
-    padding-left: 50px;
+/* mobiles */
+@media screen and (min-device-width: 320px) and (max-device-width: 768px) {
+    .NotFoundPage{
+        font-size: 24px;
+        font-weight: 600;
+        padding-left: 50px;
+    }
+    .NotFoundPage:hover{
+        color: blue;
+        text-decoration: none;
+        font-weight: 900;
+    }
 }
-.NotFoundPage:hover{
-    color: blue;
-    text-decoration: none;
-    font-weight: 900;
+
+/* laptops */
+@media screen and (min-device-width: 769px) and (max-device-width: 1024px) {
+    .NotFoundPage{
+        font-size: 24px;
+        font-weight: 600;
+        padding-left: 50px;
+    }
+    .NotFoundPage:hover{
+        color: blue;
+        text-decoration: none;
+        font-weight: 900;
+    }
+}
+
+/* desktops */
+@media screen and (min-device-width: 1025px) and (max-device-width: 1440px) {
+    .NotFoundPage{
+        font-size: 24px;
+        font-weight: 600;
+        padding-left: 50px;
+    }
+    .NotFoundPage:hover{
+        color: blue;
+        text-decoration: none;
+        font-weight: 900;
+    }
+}
+
+/* big screens */
+@media screen and (min-device-width: 1441px) and (max-device-width: 2560px) {
+    .NotFoundPage{
+        font-size: 24px;
+        font-weight: 600;
+        padding-left: 50px;
+    }
+    .NotFoundPage:hover{
+        color: blue;
+        text-decoration: none;
+        font-weight: 900;
+    }
 }

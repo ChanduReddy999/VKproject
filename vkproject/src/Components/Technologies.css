@@ -1,47 +1,31 @@
 /* mobiles */
 @media screen and (min-device-width: 320px) and (max-device-width: 768px) {
   .TechnologiesMain {
-    margin: 50px 50px 0 50px;
-    width: 900px;
-    height: 600px;
-    background-color: aquamarine;
-    border-radius: 40px;
+    margin: 0 100px;
+    /* width: 70vw; */
+    height: 60vh;
+    overflow: hidden;
   }
   .techFirstDivHeading {
-    padding: 50px 0 0 0;
     text-align: center;
-    color: blue;
+    /* color: blue; */
   }
+
   .techSecondDiv {
     padding-left: 20px;
     display: flex;
     height: 220px;
+    /* width: 70vw; */
     gap: 50px;
-    background-color: aquamarine;
-    border-top-left-radius: 40px;
-    border-top-right-radius: 40px;
+    /* background-color: aquamarine; */
+    /* border-top-left-radius: 40px; */
+    /* border-top-right-radius: 40px; */
     /* box-shadow: 25px 15px 8px rgb(192, 240, 242); */
   }
-  .mySkillsThirdDiv {
-    padding-left: 20px;
-    display: flex;
-    height: 220px;
-    gap: 50px;
-    background-color: aquamarine;
-    border-bottom-left-radius: 40px;
-    border-bottom-right-radius: 40px;
-    /* box-shadow: 25px 15px 8px rgb(192, 240, 242); */
+  .absc {
+    animation: DivRightToLeft 30s linear 0s infinite;
   }
-  .skillsImg {
-    width: 80px;
-    height: 80px;
-    margin-top: 25px;
-    margin-left: 25px;
-    animation: skillsAnime 12s linear 2s infinite;
-  }
-  .techSecondDivH2 {
-    text-align: center;
-  }
+
   .skillsAnimationDiv {
     margin-top: 30px;
     width: 130px;
@@ -51,6 +35,18 @@
     border-radius: 50%;
   }
 
+  .skillsImg {
+    width: 80px;
+    height: 80px;
+    margin-top: 25px;
+    margin-left: 25px;
+    animation: skillsAnime 4s linear 0s infinite;
+  }
+
+  .techSecondDivH2 {
+    text-align: center;
+  }
+
   @keyframes skillsAnime {
     0% {
       transform: rotate(0deg);
@@ -58,6 +54,14 @@
     75%,
     100% {
       transform: rotate(360deg);
+    }
+  }
+  @keyframes DivRightToLeft {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-50%);
     }
   }
 }
@@ -65,45 +69,31 @@
 /* laptops */
 @media screen and (min-device-width: 769px) and (max-device-width: 1024px) {
   .TechnologiesMain {
-    margin: 0 50px 0 300px;
-    width: 72vw;
-    height: 100vh;
+    margin: 0 100px;
+    /* width: 70vw; */
+    height: 60vh;
+    overflow: hidden;
   }
   .techFirstDivHeading {
-    padding: 20px 0;
     text-align: center;
-    color: blue;
+    /* color: blue; */
   }
+
   .techSecondDiv {
     padding-left: 20px;
     display: flex;
     height: 220px;
+    /* width: 70vw; */
     gap: 50px;
-    background-color: aquamarine;
-    border-top-left-radius: 40px;
-    border-top-right-radius: 40px;
+    /* background-color: aquamarine; */
+    /* border-top-left-radius: 40px; */
+    /* border-top-right-radius: 40px; */
     /* box-shadow: 25px 15px 8px rgb(192, 240, 242); */
   }
-  .mySkillsThirdDiv {
-    padding-left: 20px;
-    display: flex;
-    height: 220px;
-    gap: 50px;
-    background-color: aquamarine;
-    border-bottom-left-radius: 40px;
-    border-bottom-right-radius: 40px;
-    /* box-shadow: 25px 15px 8px rgb(192, 240, 242); */
+  .absc {
+    animation: DivRightToLeft 30s linear 0s infinite;
   }
-  .skillsImg {
-    width: 80px;
-    height: 80px;
-    margin-top: 25px;
-    margin-left: 25px;
-    animation: skillsAnime 12s linear 2s infinite;
-  }
-  .techSecondDivH2 {
-    text-align: center;
-  }
+
   .skillsAnimationDiv {
     margin-top: 30px;
     width: 130px;
@@ -113,6 +103,18 @@
     border-radius: 50%;
   }
 
+  .skillsImg {
+    width: 80px;
+    height: 80px;
+    margin-top: 25px;
+    margin-left: 25px;
+    animation: skillsAnime 4s linear 0s infinite;
+  }
+
+  .techSecondDivH2 {
+    text-align: center;
+  }
+
   @keyframes skillsAnime {
     0% {
       transform: rotate(0deg);
@@ -120,6 +122,14 @@
     75%,
     100% {
       transform: rotate(360deg);
+    }
+  }
+  @keyframes DivRightToLeft {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-50%);
     }
   }
 }
@@ -148,20 +158,8 @@
     /* border-top-right-radius: 40px; */
     /* box-shadow: 25px 15px 8px rgb(192, 240, 242); */
   }
-  .absc{
+  .absc {
     animation: DivRightToLeft 30s linear 0s infinite;
-  }
-
-  .skillsImg {
-    width: 80px;
-    height: 80px;
-    margin-top: 25px;
-    margin-left: 25px;
-    animation: skillsAnime 4s linear 0s infinite;
-  }
- 
-  .techSecondDivH2 {
-    text-align: center;
   }
 
   .skillsAnimationDiv {
@@ -172,7 +170,17 @@
     background-color: white;
     border-radius: 50%;
   }
+  .skillsImg {
+    width: 80px;
+    height: 80px;
+    margin-top: 25px;
+    margin-left: 25px;
+    animation: skillsAnime 4s linear 0s infinite;
+  }
 
+  .techSecondDivH2 {
+    text-align: center;
+  }
   @keyframes skillsAnime {
     0% {
       transform: rotate(0deg);
@@ -190,58 +198,55 @@
       transform: translateX(-50%);
     }
   }
-
 }
 
 /* big screens */
 @media screen and (min-device-width: 1441px) and (max-device-width: 2560px) {
   .TechnologiesMain {
-    margin: 0 50px 0 300px;
-    width: 72vw;
-    height: 100vh;
+    margin: 0 40px;
+    height: 60vh;
+    width: 100vw;
+    overflow: hidden;
   }
   .techFirstDivHeading {
-    padding: 20px 0;
     text-align: center;
-    color: blue;
+    font-size: 60px;
+    /* color: blue; */
   }
+
   .techSecondDiv {
-    padding-left: 20px;
+    padding-left: 2600px;
     display: flex;
     height: 220px;
     gap: 50px;
-    background-color: aquamarine;
-    border-top-left-radius: 40px;
-    border-top-right-radius: 40px;
+    /* margin: 0 200px; */
+    /* background-color: aquamarine; */
+    /* border-top-left-radius: 40px; */
+    /* border-top-right-radius: 40px; */
     /* box-shadow: 25px 15px 8px rgb(192, 240, 242); */
   }
-  .mySkillsThirdDiv {
-    padding-left: 20px;
-    display: flex;
-    height: 220px;
-    gap: 50px;
-    background-color: aquamarine;
-    border-bottom-left-radius: 40px;
-    border-bottom-right-radius: 40px;
-    /* box-shadow: 25px 15px 8px rgb(192, 240, 242); */
+  .absc {
+    animation: DivRightToLeft 30s linear 0s infinite;
   }
-  .skillsImg {
-    width: 80px;
-    height: 80px;
-    margin-top: 25px;
-    margin-left: 25px;
-    animation: skillsAnime 12s linear 2s infinite;
-  }
-  .techSecondDivH2 {
-    text-align: center;
-  }
+
   .skillsAnimationDiv {
     margin-top: 30px;
-    width: 130px;
-    height: 130px;
+    width: 250px;
+    height: 250px;
     margin-bottom: 10px;
     background-color: white;
     border-radius: 50%;
+  }
+  .skillsImg {
+    width: 220px;
+    height: 250px;
+    margin-top: 25px;
+    margin-left: 25px;
+    animation: skillsAnime 4s linear 0s infinite;
+  }
+  .techSecondDivH2 {
+    text-align: center;
+    padding-top: 40px;
   }
 
   @keyframes skillsAnime {
@@ -251,6 +256,23 @@
     75%,
     100% {
       transform: rotate(360deg);
+    }
+  }
+  @keyframes DivRightToLeft {
+    0% {
+      transform: translateX(0%);
+    }
+    25% {
+      transform: translateX(-170%);
+    }
+    50% {
+      transform: translateX(0%);
+    }
+    75% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0%);
     }
   }
 }
