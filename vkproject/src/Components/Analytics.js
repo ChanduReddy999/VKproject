@@ -5,8 +5,11 @@ import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 import './Analytics.css';
 import dataAnalytics from '../Images/dataAnalytics.jpg';
 
+import DocumentTitle from './DocumentTitle/DocumentTitle';
+
 
 const Analytics = () => {
+  DocumentTitle('VKL Analytics Page')
   return (
     <>
       <div className='AnalyticsPage'>

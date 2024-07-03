@@ -5,8 +5,11 @@ import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 import './Webdev.css';
 import webDevelopment from '../Images/webDevelopment.jpg';
 
+import DocumentTitle from './DocumentTitle/DocumentTitle';
 
 const Webdev = () => {
+  DocumentTitle('VKL Web Development Page')
+
   return (
     <>
       <div className='WebDevelopmentPage'>

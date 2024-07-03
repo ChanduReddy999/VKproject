@@ -5,8 +5,11 @@ import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 import './Engineering.css'
 import dataEngineering from '../Images/dataEngineering.jpg';
 
+import DocumentTitle from './DocumentTitle/DocumentTitle';
 
 const Engineering = () => {
+  DocumentTitle('VKL Engineering Page')
+
   return (
     <>
       <div className='EngineeringPage'>

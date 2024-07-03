@@ -314,7 +314,7 @@
       background-color: aliceblue;
       height: 85vh;
       border-radius: 40px;
-      width: 900px;
+      width: 72%;
       display: flex;
     }
     .socialMedia {
@@ -454,9 +454,14 @@
       width: 240px;
       height: 30px;
       font-size: larger;
-      font-weight: 900;
-      background-color: aqua;
+      font-weight: 500;
+      background-color: rgb(244, 238, 205);
       border-radius: 10px;
+    }
+    .contactSendButton:hover{
+      color: blue;
+      background-color: aqua;
+      font-weight: 700;
     }
   }
   
@@ -467,7 +472,7 @@
       /* padding-top: 20px; */
       background-color: aliceblue;
       border-radius: 40px;
-      width: 2200px;
+      width: 86%;
       display: flex;
     }
     .socialMedia {
@@ -620,10 +625,15 @@
       width: 400px;
       height: 80px;
       font-size: 30px;
-      font-weight: 900;
-      background-color: aqua;
+      font-weight: 700;
+      background-color: rgb(244, 238, 205);
       border-radius: 20px;
       margin-top: 30px;
+    }
+    .contactSendButton:hover{
+      color: blue;
+      background-color: aqua;
+      font-weight: 900;
     }
   }
   
