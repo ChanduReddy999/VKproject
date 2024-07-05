@@ -187,28 +187,28 @@
     }
     .serviceImagesDiv{
         width: 350px;
-        height: 200px;
+        height: 180px;
     }
     .serviceImagesSubDiv{
         width: 250px;
-        height: 200px;
+        height: 160px;
     }
     
     .serviceImages1{
-        width: 230px;
-        height: 180px;
-        margin-left: 60px;
+        width: 180px;
+        height: 150px;
+        margin-left: 85px;
     }
     .serviceImages2{
-        width: 200px;
-        height: 200px;
-        margin-left: 80px;
+        width: 170px;
+        height: 170px;
+        margin-left: 90px;
         margin-top: -10px;
     }
     .serviceImages3{
-        width: 180px;
-        height: 150px;
-        margin-left: 80px;
+        width: 150px;
+        height: 120px;
+        margin-left: 100px;
         margin-top: 20px;
     }
     .serviceImages:hover{
@@ -218,6 +218,15 @@
     .navigationToPages{
         text-decoration: none;
         text-align: center;
+    }
+    .navigationToPages:link{
+        color: blue;
+    }
+    .navigationToPages:active{
+        color: red;
+    }
+    .navigationToPages:hover{
+        color: green;
     }
     .descriptionParagraph{
         margin-top: 60px;
