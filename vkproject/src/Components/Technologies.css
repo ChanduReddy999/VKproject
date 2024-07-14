@@ -41,7 +41,7 @@
     height: 20px;
     margin-top: 5px;
     margin-left: 5px;
-    /* animation: skillsAnime 4s linear 0s infinite; */
+    animation: skillsAnime 8s linear 0s infinite;
   }
 
   .techSecondDivH2 {
@@ -63,7 +63,7 @@
       transform: translateX(0%);
     }
     100% {
-      transform: translateX(-50%);
+      transform: translateX(-100%);
     }
   }
 }
